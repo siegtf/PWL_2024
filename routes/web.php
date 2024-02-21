@@ -23,6 +23,10 @@ Route::get('/hello', function () {
 //  return 'World';
 // });
 
-Route::get('/welcome', function () {
-   return 'Selamat Datang';
+// Route::get('/welcome', function () {
+//    return 'Selamat Datang';
+//   });
+
+Route::get('/about', function () {
+   return '2341728019';
   });
